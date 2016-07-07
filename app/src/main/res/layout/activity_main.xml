@@ -7,8 +7,80 @@
 
     <Button
         android:id="@+id/id_btn_start"
-        android:layout_centerInParent="true"
-        android:text="Start"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="@string/btn_start_service"
+        android:typeface="sans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:id="@+id/id_divider_one"
+        android:layout_below="@id/id_btn_start"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <TextView
+        android:id="@+id/id_how_to_use"
+        android:text="HOW TO USE:"
+        android:typeface="sans"
+        android:layout_below="@id/id_divider_one"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/id_tips_one"
+        android:text="1. Press the 'Start Service' button then exit this app"
+        android:layout_below="@id/id_how_to_use"
+        android:typeface="sans"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="9dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/id_tips_two"
+        android:text="2. Shake the device to start screen recording"
+        android:layout_below="@id/id_tips_one"
+        android:typeface="sans"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="9dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/id_tips_three"
+        android:text="3. Shake again to stop the recording"
+        android:layout_below="@id/id_tips_two"
+        android:typeface="sans"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="9dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/id_tips_four"
+        android:text="4. The file will save in /sdcard/CosScrRecorder folder"
+        android:layout_below="@id/id_tips_three"
+        android:typeface="sans"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="9dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/id_tips_five"
+        android:text="5. Press 'Stop Service' to stop the service"
+        android:layout_below="@id/id_tips_four"
+        android:typeface="sans"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="9dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 </RelativeLayout>

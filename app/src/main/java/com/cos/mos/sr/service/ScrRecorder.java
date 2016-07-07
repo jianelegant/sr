@@ -34,7 +34,7 @@ public enum ScrRecorder {
     instance;
 
     public static final int REQUEST_CODE = 1989;
-    private static final String DEFAULT_FOLDER = "ScrRecorder";
+    private static final String DEFAULT_FOLDER = "CosScrRecorder";
     private static final String DEFAULT_PREFIX = "Scr_recoder_";
     private static final String DEFAULT_EXTENSION_NAME = ".mp4";
     private static final String DEFAULT_VD_NAME = ScrRecorder.class.getSimpleName() + "-Display";

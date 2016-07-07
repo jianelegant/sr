@@ -3,4 +3,6 @@
     <string name="notification_content">Shake device to start or stop screen record.</string>
     <string name="toast_start_recording">Recording will start after this tip dismiss.</string>
     <string name="toast_stop_recording">Recording stopped.</string>
+    <string name="btn_start_service">Start Service</string>
+    <string name="btn_stop_service">Stop Service</string>
 </resources>
