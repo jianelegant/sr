@@ -15,3 +15,11 @@
 #-keepclassmembers class fqcn.of.javascript.interface.for.webview {
 #   public *;
 #}
+
+# Flurry
+-keep class com.flurry.** { *; }
+-dontwarn com.flurry.**
+
+# Google
+-keep class com.google.** { *; }
+-keep class android.support.** { *; }

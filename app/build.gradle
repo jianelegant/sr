@@ -13,7 +13,7 @@ android {
     }
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
@@ -22,5 +22,5 @@ android {
 dependencies {
     compile "com.android.support:appcompat-v7:$rootProject.supportLibraryVersion"
     compile "com.flurry.android:analytics:$rootProject.flurryVersion"
-    compile "com.google.android.gms:play-services:$rootProject.googlePlayeServiceVersion"
+    compile "com.google.android.gms:play-services-base:$rootProject.googlePlayeServiceVersion"
 }
