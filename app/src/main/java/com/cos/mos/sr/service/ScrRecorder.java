@@ -15,6 +15,7 @@ import android.os.Environment;
 import android.os.Handler;
 import android.os.Looper;
 import android.os.Message;
+import android.util.DisplayMetrics;
 import android.view.Surface;
 import android.widget.Toast;
 
@@ -69,6 +70,10 @@ public enum ScrRecorder {
     public void init(Activity activity){
         mWeakAct = new WeakReference<>(activity);
         mMediaProjectionManager = (MediaProjectionManager) activity.getSystemService(Context.MEDIA_PROJECTION_SERVICE);
+        DisplayMetrics dm = new DisplayMetrics();
+        activity.getWindowManager().getDefaultDisplay().getMetrics(dm);
+        mWidth = dm.widthPixels;
+        mHeight = dm.heightPixels;
     }
 
     public void requestRecord(){

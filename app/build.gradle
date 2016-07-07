@@ -22,4 +22,5 @@ android {
 dependencies {
     compile "com.android.support:appcompat-v7:$rootProject.supportLibraryVersion"
     compile "com.flurry.android:analytics:$rootProject.flurryVersion"
+    compile "com.google.android.gms:play-services:$rootProject.googlePlayeServiceVersion"
 }
