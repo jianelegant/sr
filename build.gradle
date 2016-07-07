@@ -24,4 +24,5 @@ task clean(type: Delete) {
 
 ext {
     supportLibraryVersion = '23.3.0'
+    flurryVersion = '6.4.0'
 }

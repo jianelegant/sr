@@ -19,7 +19,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final String[] PERMISSIONS_NEED_REQUEST = {Manifest.permission.WRITE_EXTERNAL_STORAGE};
+    private static final String[] PERMISSIONS_NEED_REQUEST = {Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.ACCESS_FINE_LOCATION};
     private static final int PERMISSION_REQUEST_CODE = 1989;
 
     Button mStartServiceBtn;
